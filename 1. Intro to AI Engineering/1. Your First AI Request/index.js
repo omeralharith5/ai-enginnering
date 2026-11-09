@@ -9,6 +9,7 @@ const openai = new OpenAI({
 
 checkEnvironment();
 
+// Define the prompt for the AI request
 const prompt = "Suggest some gifts for someone who loves hiphop music";
 
 console.log("Prompt:", prompt);
